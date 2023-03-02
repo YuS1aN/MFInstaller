@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MF Installer</string>
+    <string name="xiaomi_tips">小米用户如遇到无法安装XAPK的情况，请按如下步骤操作：\n\n
+                                1. 打开设置，点击“我的设备” - “全部参数”\n
+                                2. 连续点击“MIUI版本”，直到提示“您现在处于开发者模式”\n
+                                3. 回到设置主页面，点击“更多设置” - “开发者选项”\n
+                                4. 开发者选项页面滑动到最底部，关闭“启用MIUI优化”\n
+                                5. 安装游戏</string>
+
+    <string name="xiaomi_tips2">小米用户如遇到安装成功但无法启动游戏的情况，请尝试按如下步骤操作：\n\n
+                                1. 卸载游戏
+                                2. 打开设置，点击“我的设备” - “全部参数”\n
+                                3. 连续点击“MIUI版本”，直到提示“您现在处于开发者模式”\n
+                                4. 回到设置主页面，点击“更多设置” - “开发者选项”\n
+                                5. 开发者选项页面滑动到最底部，关闭“启用MIUI优化”\n
+                                6. 重新安装游戏</string>
+
+    <string name="installer_not_found_tips">软件包安装器不支持该操作，请联系我们，或者更换系统内置包安装器再重试</string>
+
+    <string name="oppo_permission_tips">部分系统不支持安装XAPK，请尝试更新手机系统，或者更换系统内置包安装器再重试</string>
+
+    <string name="installing">正在安装…</string>
+    <string name="retry">重试</string>
+    <string name="back">返回</string>
+    <string name="installed">安装成功</string>
+    <string name="fail_to_install">安装失败，请重试</string>
+    <string name="not_enough_storage">安装失败, 存储空间不足</string>
+    <string name="ins_unknown_error">安装失败，未知错误</string>
+    <string name="wrong_obb_filename">obb文件名错误</string>
+    <string name="install_obb_success">安装obb成功</string>
+    <string name="install_obb_fail">安装obb失败</string>
+    <string name="select_file">选择文件</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="file_root">内部存储</string>
+    <string name="file_type">格式：%s</string>
+    <string name="file_size">大小：%s</string>
+    <string name="apk_version">版本：%s</string>
+    <string name="grant_obb_path_title">文件访问限制</string>
+    <string name="grant_obb_path_tips">
+        从 Android 11 开始，
+        /Android/obb 目录存在访问限制，
+        请点击确定后在弹出窗口中直接点击"使用此文件夹"。\n\n
+        如果无法点击"使用此文件夹"，
+        请在obb目录下创建文件夹，
+        文件夹名称已复制到剪切板中。\n
+        然后打开该文件夹并点击"使用此文件夹"。
+    </string>
+    <string name="not_support_version">不支持 Android 13 及以上系统</string>
+</resources>

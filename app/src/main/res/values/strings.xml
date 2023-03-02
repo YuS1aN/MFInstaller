@@ -1,3 +1,49 @@
 <resources>
     <string name="app_name">MF Installer</string>
+    <string name="xiaomi_tips">If the Xiaomi device fails to install the Xapk, please follow the steps below:\n\n
+                                1. Open settings - My device - Detailed info and specs\n
+                                2. Repeat click "MIUI version" to enable developer options\n
+                                3. Return to the main settings page - "Additional settings" - “Developer options”\n
+                                4. Disable "Turn on MIUI optimization"\n
+                                5. Install</string>
+
+    <string name="xiaomi_tips2">If the Xiaomi device fails to launch app, please follow the steps below:\n\n
+                                1. Uninstall app
+                                2. Open settings - My device - Detailed info and specs\n
+                                3. Repeat click "MIUI version" to enable developer options\n
+                                4. Return to the main settings page - "Additional settings" - “Developer options”\n
+                                5. Disable "Turn on MIUI optimization"\n
+                                6. Reinstall</string>
+
+    <string name="installer_not_found_tips">Unsupported package installer</string>
+    <string name="oppo_permission_tips">Some systems do not support installing XAPKs, please try updating your phone system</string>
+
+    <string name="installing">Installing…</string>
+    <string name="retry">Retry</string>
+    <string name="back">Back</string>
+    <string name="installed">installation was successful</string>
+    <string name="fail_to_install">Installation failed, please try again</string>
+    <string name="not_enough_storage">Installation failed, not enough storage space</string>
+    <string name="ins_unknown_error">Installation failed, unknown error</string>
+    <string name="wrong_obb_filename">Incorrect obb file name</string>
+    <string name="install_obb_success">obb installed successfully</string>
+    <string name="install_obb_fail">Failed to install obb</string>
+    <string name="select_file">Select File</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="file_root">external storage</string>
+    <string name="file_type">format: %s</string>
+    <string name="file_size">size: %s</string>
+    <string name="apk_version">version: %s</string>
+    <string name="grant_obb_path_title">File access limit</string>
+    <string name="grant_obb_path_tips">
+        Starting from Android 11,
+        there are limit on the /Android/obb directory,
+        click OK and click \'USE THIS FOLDER\' in the pop-up window.\n\n
+        If you can\'t click \'USE THIS FOLDER\',
+        create a new folder in the obb directory,
+        the folder name is copied to the clipboard.\n
+        Then open this folder and click \'USE THIS FOLDER\'.
+    </string>
+    <string name="not_support_version">Android 13 and above are not supported</string>
 </resources>
